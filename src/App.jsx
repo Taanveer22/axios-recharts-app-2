@@ -1,3 +1,4 @@
+import AllPriceOptions from "./components/AllPriceOptions";
 import DasisyNavbar from "./components/DasisyNavbar";
 import Navbar from "./components/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <DasisyNavbar></DasisyNavbar>
       <Navbar></Navbar>
+      <AllPriceOptions></AllPriceOptions>
     </>
   );
 }
